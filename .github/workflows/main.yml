@@ -28,8 +28,6 @@ jobs:
           - "urllib3<2"
 
         exclude:
-          - python-version: "3.9"
-            urllib3-requirement: "urllib3>=2"
           - python-version: "pypy-3.9"
             urllib3-requirement: "urllib3>=2"
           - python-version: "pypy-3.10"
